@@ -84,7 +84,7 @@ function love.update(dt)
         tor_zeit=os.time()
         lb="none"
     elseif ball_pos.x+ball_scale*0.5>1 then
-        plr1_score=plr1_score+9
+        plr1_score=plr1_score+1
         ball_pos.x=0.5
         ball_pos.y=0.5
         ball_winkel=ball_def_winkel
